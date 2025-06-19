@@ -52,7 +52,7 @@ Se utilizó el algoritmo **K-Nearest Neighbors (KNN)** para entrenar el modelo d
 
 ## 📈 Resultados
 
-El modelo logró una precisión adecuada al clasificar correctamente la mayoría de los niveles de riesgo. La matriz de confusión y las métricas como *accuracy*, *precision*, *recall* y *f1-score* fueron utilizadas para evaluar el desempeño del modelo.
+El modelo logró una precisión adecuada al clasificar correctamente la mayoría de los niveles de riesgo con un *accuracy* de 96%. La matriz de confusión y las métricas como *precision*, *recall* y *f1-score* fueron utilizadas para evaluar el desempeño del modelo y lograron valores por encima del 90%.
 
 ## ©️ Licencia y uso
 
