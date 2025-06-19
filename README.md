@@ -21,7 +21,7 @@ Los datos meteorológicos fueron descargados desde la API de **Open-Meteo**, e i
 
 ## 🏷️ Etiquetado del Riesgo
 
-La variable objetivo para el riesgo de incendio (`Riesgo`) fue generada aplicando el índice FWI del sistema canadiense, clasificando el riesgo en cinco niveles:
+La variable objetivo para el riesgo de incendio (`Riesgo`) fue generada aplicando el índice **FWI** del sistema canadiense (https://cwfis.cfs.nrcan.gc.ca/background/summary/fwi), clasificando el riesgo en cinco niveles:
 
 - Bajo
 - Moderado
@@ -62,4 +62,8 @@ El modelo logró una precisión adecuada al clasificar correctamente la mayoría
 ├── notebooks/             # Jupyter notebooks con el análisis y entrenamiento
 ├── models/                # Archivos del modelo entrenado (opcional)
 ├── references             # referencias
-└──README.md               # Este archivo
+└── README.md              # Este archivo
+
+## Licencias y uso
+
+Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tecnicas en ciencia de datos y aprendizaje automatico para el modelado y desarrollo del proyecto.
