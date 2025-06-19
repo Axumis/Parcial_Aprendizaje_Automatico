@@ -48,10 +48,15 @@ Se utilizó el algoritmo **K-Nearest Neighbors (KNN)** para entrenar el modelo d
 - Matplotlib / Seaborn
 - Jupyter Notebook
 - Google Colab
+- API de Open-Meteo
 
 ## 📈 Resultados
 
 El modelo logró una precisión adecuada al clasificar correctamente la mayoría de los niveles de riesgo. La matriz de confusión y las métricas como *accuracy*, *precision*, *recall* y *f1-score* fueron utilizadas para evaluar el desempeño del modelo.
+
+## ©️ Licencia y uso
+
+Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tecnicas en ciencia de datos y aprendizaje automatico para el modelado y desarrollo del proyecto.
 
 ## 📂 Estructura del Repositorio
 
@@ -63,7 +68,3 @@ El modelo logró una precisión adecuada al clasificar correctamente la mayoría
 ├── models/                # Archivos del modelo entrenado (opcional)
 ├── references             # referencias
 └── README.md              # Este archivo
-
-## Licencias y uso
-
-Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tecnicas en ciencia de datos y aprendizaje automatico para el modelado y desarrollo del proyecto.
