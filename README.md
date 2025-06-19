@@ -17,7 +17,7 @@ Los datos meteorológicos fueron descargados desde la API de **Open-Meteo**, e i
 - 💧 Humedad relativa (%)
 - 🌬️ Velocidad del viento (km/h)
 - 🌧️ Precipitación (mm)
-- 🌱 Humedad volumétrica del suelo (%)
+- 🌱 Humedad volumétrica del suelo (mm³/mm³)
 
 ## 🏷️ Etiquetado del Riesgo
 
