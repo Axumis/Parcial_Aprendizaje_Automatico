@@ -21,7 +21,7 @@ Los datos meteorológicos fueron descargados desde la API de **Open-Meteo**, e i
 
 ## 🏷️ Etiquetado del Riesgo
 
-La variable objetivo (`riesgo_incendio`) fue generada aplicando el índice FWI del sistema canadiense, clasificando el riesgo en cinco niveles:
+La variable objetivo para el riesgo de incendio (`Riesgo`) fue generada aplicando el índice FWI del sistema canadiense, clasificando el riesgo en cinco niveles:
 
 - Bajo
 - Moderado
