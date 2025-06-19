@@ -82,6 +82,8 @@ Los datos están limitados geográficamente a la región de Tierra del Fuego.
 El modelo puede ser mejorado incluyendo más datos, ajustando hiperparámetros o probando otros algoritmos.
 
 ## 🙋 Autor
-Maximiliano Ruiz
+**Maximiliano Valentin Ruiz**
+
 📧 Contacto: [maxi9304@gmail.com]
+
 🎓 Estudiante de la Tecnicatura en Ciencia de Datos e Inteligencia Artificial
