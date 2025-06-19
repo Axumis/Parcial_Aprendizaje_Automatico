@@ -1,3 +1,64 @@
-# Parcial_Aprendizaje_Automatico
-Clasificador de riesgo de incendios forestales según gravedad
+# 🔥 Clasificación de Riesgo de Incendios Forestales en Tierra del Fuego
+
+Este proyecto aplica técnicas de *Machine Learning* para clasificar el **nivel de riesgo de incendio forestal** en la Isla de Tierra del Fuego, Argentina. Se utilizó el índice canadiense **FWI (Fire Weather Index)** para etiquetar los niveles de riesgo a partir de datos meteorológicos obtenidos de la plataforma [Open-Meteo](https://open-meteo.com/).
+
 🎬 Video explicativo del modelo: https://drive.google.com/file/d/1xMGkrJtvcaeIARh-k4RMIBCMK_7nN6A0/view?usp=sharing
+
+
+## 📊 Objetivo del Proyecto
+
+Desarrollar un modelo de clasificación supervisada que prediga el **nivel de riesgo de incendio forestal** según variables meteorológicas, con el fin de aportar una herramienta predictiva útil para la gestión ambiental y la prevención de incendios.
+
+## 🛰️ Fuente de Datos
+
+Los datos meteorológicos fueron descargados desde la API de **Open-Meteo**, e incluyen las siguientes variables:
+
+- 🌡️ Temperatura (°C)
+- 💧 Humedad relativa (%)
+- 🌬️ Velocidad del viento (km/h)
+- 🌧️ Precipitación (mm)
+- 🌱 Humedad volumétrica del suelo (%)
+
+## 🏷️ Etiquetado del Riesgo
+
+La variable objetivo (`riesgo_incendio`) fue generada aplicando el índice FWI del sistema canadiense, clasificando el riesgo en cinco niveles:
+
+- Bajo
+- Moderado
+- Alto
+- Muy Alto
+- Extremo
+
+## 🧠 Modelo Utilizado
+
+Se utilizó el algoritmo **K-Nearest Neighbors (KNN)** para entrenar el modelo de clasificación. El flujo de trabajo incluyó:
+
+1. Carga y exploración de datos.
+2. Preprocesamiento: limpieza, normalización y etiquetado.
+3. División del dataset en entrenamiento y prueba.
+4. Entrenamiento del modelo con KNN.
+5. Evaluación del modelo mediante matriz de confusión y métricas de desempeño.
+
+## ⚙️ Tecnologías y Librerías
+
+- Python 🐍
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib / Seaborn
+- Jupyter Notebook
+
+## 📈 Resultados
+
+El modelo logró una precisión adecuada al clasificar correctamente la mayoría de los niveles de riesgo. La matriz de confusión y las métricas como *accuracy*, *precision*, *recall* y *f1-score* fueron utilizadas para evaluar el desempeño del modelo.
+
+## 📂 Estructura del Repositorio
+
+```bash
+📁 forest-fire-risk-tdf/
+├── data/                  # Datos meteorológicos crudos o procesados
+├── docs/                  # Documentacion del proyecto
+├── notebooks/             # Jupyter notebooks con el análisis y entrenamiento
+├── models/                # Archivos del modelo entrenado (opcional)
+├── references             # referencias
+└──README.md               # Este archivo
