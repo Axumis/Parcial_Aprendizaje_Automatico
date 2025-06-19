@@ -54,10 +54,6 @@ Se utilizó el algoritmo **K-Nearest Neighbors (KNN)** para entrenar el modelo d
 
 El modelo logró una precisión adecuada al clasificar correctamente la mayoría de los niveles de riesgo con un *accuracy* de 96%. La matriz de confusión y las métricas como *precision*, *recall* y *f1-score* fueron utilizadas para evaluar el desempeño del modelo y lograron valores por encima del 90%.
 
-## ©️ Licencia y uso
-
-Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tecnicas en ciencia de datos y aprendizaje automatico para el modelado y desarrollo del proyecto.
-
 ## 📂 Estructura del Repositorio
 
 ```bash
@@ -68,3 +64,24 @@ Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tec
 ├── models/                # Archivos del modelo entrenado (opcional)
 ├── references             # referencias
 └── README.md              # Este archivo
+```
+## ©️ Licencia y uso
+
+Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tecnicas en ciencia de datos y aprendizaje automatico para el modelado y desarrollo del proyecto.
+
+## 📚 Referencias
+- [1] https://cwfis.cfs.nrcan.gc.ca/background/summary/f
+- [2] https://ostrnrcan-dostrncan.canada.ca/entities/publication/29706108-2891-4e5d-a59a-a77c96bc507c
+- [3] https://obs-idecor-mapas-docs.obs.sa-argentina-1.myhuaweicloud.com/m442/Indice_FWI_y_componentes.pdf
+- [4] https://www.smn.gob.ar/sites/default/files/mapasdepeligro.pdf
+- [5] https://www.calculatorultra.com/en/tool/fire-weather-index-calculator.html#gsc.tab=0
+
+## 📌 Consideraciones
+Los datos están limitados geográficamente a la región de Tierra del Fuego.
+
+El modelo puede ser mejorado incluyendo más datos, ajustando hiperparámetros o probando otros algoritmos.
+
+## 🙋 Autor
+Maximiliano Ruiz
+📧 Contacto: [maxi9304@gmail.com]
+🎓 Estudiante de la Tecnicatura en Ciencia de Datos e Inteligencia Artificial
