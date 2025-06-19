@@ -47,6 +47,7 @@ Se utilizó el algoritmo **K-Nearest Neighbors (KNN)** para entrenar el modelo d
 - NumPy
 - Matplotlib / Seaborn
 - Jupyter Notebook
+- Google Colab
 
 ## 📈 Resultados
 
