@@ -70,7 +70,7 @@ El modelo logró una precisión adecuada al clasificar correctamente la mayoría
 Este trabajo tiene fines academicos el cual permite afianzar conocimientos y tecnicas en ciencia de datos y aprendizaje automatico para el modelado y desarrollo del proyecto.
 
 ## 📚 Referencias
-- [1] https://cwfis.cfs.nrcan.gc.ca/background/summary/f
+- [1] https://cwfis.cfs.nrcan.gc.ca/background/summary/fwi
 - [2] https://ostrnrcan-dostrncan.canada.ca/entities/publication/29706108-2891-4e5d-a59a-a77c96bc507c
 - [3] https://obs-idecor-mapas-docs.obs.sa-argentina-1.myhuaweicloud.com/m442/Indice_FWI_y_componentes.pdf
 - [4] https://www.smn.gob.ar/sites/default/files/mapasdepeligro.pdf
